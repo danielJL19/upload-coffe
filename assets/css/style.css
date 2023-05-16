@@ -1,0 +1,105 @@
+/**GENERALES*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+}
+li{
+    padding:10px 10px;
+    
+}
+H1,H2,H3,H4,H5{
+    margin: 0;
+}
+h1,h2{
+    color: aliceblue;
+}
+h1{
+    font-size: 70px;
+    text-align: end;
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.bg-black{
+    background-color: black;
+    height: 50px;
+}
+.favicon{
+
+    background-color: aliceblue;
+}
+.hero{
+    background-image: url('../img/bg-hero.png');
+    height:35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.header p{
+    color: aliceblue;
+    font-size: 44px;
+}
+.sala-lugar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.text-center{
+    text-align: center;
+}
+.sala-lugar-description h2{
+    color: black;
+    font-size: 30px;
+}
+.section-2{
+    background-color: brown;
+    padding: 5rem 0;
+    width: 100%;
+}
+.invitacion-charla{
+    display: flex;
+    justify-content: center;
+}
+.invitacion-charla-descripcion{
+    margin-left: 25px;
+    color: aliceblue;
+}
+.invitacion-charla-descripcion h2{
+    font-size: 37px;
+}
+.footer{
+    background-color: black;
+}
+.img-1{
+    background-color: aliceblue;
+}
+.img-2{
+    width: 100%;
+    
+}
